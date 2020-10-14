@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html, body, #root, #root>div {
+  height: 100%
+}
+h1, h2, h3, .font-beyond { font-family: 'beyond_the_mountainsregular', sans-serif; }

@@ -1,0 +1,46 @@
+.btn-detalles{
+    background-color: #A30021;
+    color: #ffffff;
+    width: 5rem;
+    font-size: 11px;
+    min-height: 40px;
+}
+.btn-detalles:hover{
+    opacity: 0.8;
+    color: #ffffff;
+}
+
+.btn-pedido{
+    background-color: #fff;
+    color: #A30021;
+    width: 9rem;
+    font-size: 11px;
+    min-height: 40px;
+    border-color: #A30021;
+}
+.btn-pedido:hover{
+    opacity: 0.8;
+    background-color: #A30021;
+    color:#fff
+}
+
+.p-admin{
+    font-size: 0.9rem;
+    margin:0;
+}
+
+.btn-estado{
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    background-color: #ffffff;
+    border-color: #A30021;
+    width: 12rem;
+    border-radius: 1rem;
+    color:#A30021;
+}
+
+.btn-estado:hover{
+    opacity: 0.6;
+    background-color: #A30021;
+    color:white;
+}

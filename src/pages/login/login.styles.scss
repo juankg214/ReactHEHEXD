@@ -1,0 +1,89 @@
+@use 'src/base';
+
+@media only screen and (min-width: 760px) {
+  .card-login {
+    width: 75%;
+  }
+
+
+  .colLogin{
+    //height: 75%;
+  }
+
+  .card-reg {
+    width: 100%;
+  }
+
+  .img-logo {
+    width: 40%;
+    text-align: center;
+   //display: block;
+    horiz-align: center;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .card-login {
+    width: 100%;
+  }
+
+  .card-reg {
+    width: 120%;
+    margin-top: 75px;
+  }
+
+  .colLogin{
+    height: 100%;
+  }
+
+  .img-logo {
+    width: 70%;
+    text-align: center;
+    //display: block;
+    horiz-align: center;
+  }
+}
+
+.row-login {
+  height: 100%;
+  margin-left: 40px;
+  margin-right: 40px;
+  justify-content: center;
+}
+
+.container-login {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(#A30021 50%, white 50%);
+
+}
+
+.card-title-login {
+  text-align: center;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  color: #A30021;
+}
+
+
+
+.prim{
+
+  border-radius: 30px;
+  color: #ffffff;
+  margin: 2%;
+}
+.red-color{
+  background-color: #A30021;
+}
+.blue-color{
+  background-color: #0b6ac1;
+}
+
+.prim:hover{
+  opacity: 0.8;
+  color: #ffffff;
+}
+
+
